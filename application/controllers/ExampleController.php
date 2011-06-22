@@ -23,7 +23,7 @@ class ExampleController extends Zend_Controller_Action
 	public function sendAction() 
 	{		
 		/*
-		For testings purpose, i just disable the viewRenderer
+		For testing purposes, i just disable the viewRenderer
 		*/
 		$this->_helper->viewRenderer->setNoRender();
 		
